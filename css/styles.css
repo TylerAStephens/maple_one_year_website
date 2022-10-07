@@ -1,4 +1,21 @@
+/* 
+#FFF5E4
+#FFE3E1
+#FFD1D1
+#FF9494
+
+#ff9292
+#ffb4b4
+#ffdcdc
+#ffe8e8 */
+
+
 
 #title {
-    background-color: salmon;
+background-color: #ffdede;
+}
+
+
+.title-image {
+    width: 45%;
 }
