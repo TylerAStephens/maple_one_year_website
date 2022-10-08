@@ -1,4 +1,4 @@
-/* 
+/*
 #FFF5E4
 #FFE3E1
 #FFD1D1
@@ -9,13 +9,92 @@
 #ffdcdc
 #ffe8e8 */
 
+body {
+  font-family: 'Peralta', cursive;
+}
 
+h1 {
+  font-family: 'Peralta', cursive;
+  font-size: 4rem;
+  line-height: 1.5;
+}
 
-#title {
-background-color: #ffdede;
+h5 {
+  color: #ffffff;
+  font-weight: bolder;
+  background-color: #ff9292;
+  border-width: 100%;
+  font-size: 2.25rem;
 }
 
 
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#title {
+  background-color: #ff9292;
+  color: #fff;
+}
+
 .title-image {
-    width: 45%;
+  width: 100%;
+  /* position: absolute; */
+  right: 30%;
+}
+
+#timelapse {
+  /* padding: 7% 15%; */
+  text-align: center;
+  background-color: #ffdcdc;
+  color:#ff9292;
+  /* position: relative;
+  z-index: 1; */
+}
+
+
+/* Keeps Carousel Image Size Consistent */
+.carousel-item {
+  height: 600px;
+  padding: 7% 15%;
+}
+.carousel-inner {
+  height: 600px;
+}
+.item-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 600px;
+}
+/* Carousel Buttons */
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
+
+#milestones {
+  background-color: #ff9292;
+  text-align: center;
+  color: #fff;
 }
