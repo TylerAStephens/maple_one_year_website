@@ -40,6 +40,7 @@ h5 {
   font-weight: bold;
 }
 
+
 .nav-item {
   padding: 0 10px;
 }
@@ -110,8 +111,6 @@ h5 {
   border-radius: 25px;
 }
 
-/* #footer {
-} */
 
 @media (max-width: 1028px) {
   #title {
@@ -120,5 +119,16 @@ h5 {
 
   .title-image {
     position: static;
+  } 
+
+  #timelapse {
+    height: 500px;
   }
+  .carousel-inner {
+    height: auto;
+  }
+  .carousel-item {
+    max-height: 350px;
+    padding: 7% 15%;
+}
 }
