@@ -10,10 +10,10 @@
 #ffe8e8 */
 body {
   font-family: 'Peralta', cursive;
+  text-align: center;
 }
 
 h1 {
-  font-family: 'Peralta', cursive;
   font-size: 4rem;
   line-height: 1.5;
 }
@@ -30,9 +30,6 @@ h5 {
   padding: 3% 15%;
 }
 
-/* .col-lg-6 {
-  position: relative;
-} */
 /* Navigation Bar */
 .navbar {
   padding-bottom: 4.5rem;
@@ -66,7 +63,6 @@ h5 {
 }
 
 #timelapse {
-  text-align: center;
   background-color: #ffdcdc;
   color: #ff9292;
 }
@@ -101,9 +97,12 @@ h5 {
   color: #fff;
 }
 
-#footer {
-  text-align: center;
+.card {
+  padding: 1rem;
 }
+
+/* #footer {
+} */
 
 @media (max-width: 1028px) {
   #title {
