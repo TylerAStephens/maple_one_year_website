@@ -98,7 +98,16 @@ h5 {
 }
 
 .card {
+  background-color: #FFF5E4;
   padding: 1rem;
+  border-radius: 25px;
+}
+
+.card-img-top {
+  border-radius: 25px;
+}
+.card-body {
+  border-radius: 25px;
 }
 
 /* #footer {
